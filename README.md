@@ -1,6 +1,5 @@
 # MC-CPC
-Multi-Channel Lightweight Contrast Prediction Coding for Feature Extraction of Radar Emitter Signals Detection on Wideband signal
-## MC-CPC: Multi-Channel Lightweight Contrast Prediction Coding for Feature Extraction of Radar Emitter Signals Detection on Wideband signal
+Multi-Channel Lightweight Contrast Prediction Coding for Feature Extraction of Radar Emitter Signals
 
 ## Overview
 
@@ -13,27 +12,15 @@ encoder to realize the CPCfeature encoding function. Then, we construct a multi-
 
 ### Training datasets and test datasets
 
-Relevant training data sets and Validation data sets see in ./datasets/.
-
-### Example Output
-
-> *Bounding box detection result of an time frequency spectrum of broadband signal
-
-![](./figures/center_heatmap.jpeg)
-
-> *Predicted heatmap of object center points on an time frequency spectrum of broadband signal
-
-### Best Model
-
-> the trained model is placed on ./snapshot folder
+Relevant training data sets and Validation data sets see in https://pan.baidu.com/s/1phD1gqDxqQCYLHclP8DZ_g, and the data extraction code is "zjnc"
 
 
-This repository was developed and tested in PyTorch 1.5.
+This repository was developed and tested in PyTorch 1.0.
 
 ## How to run
 
 - The installation dependency is very simple. The quick installation method is to install Anaconda3 + pytorch>1.0
-- Relevant training data sets and Validation data sets see in ./datasets/
+- Relevant training data sets and Validation data sets see in https://pan.baidu.com/s/1phD1gqDxqQCYLHclP8DZ_g, and the data extraction code is "zjnc", When the dataset is downloaded, it is placed in ./datasets/
 - Relevant training dataset lists and Validation dataset lists see in ./test/
 - Modify signal dataset directory in ./run.sh and ./run_train_spk.sh
 - Run ./run.sh for CPC feature training and Validation
